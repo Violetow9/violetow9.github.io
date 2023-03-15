@@ -30,7 +30,7 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-        <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+        <h1 class="logo"><a href="index.html">Portfolio Hugo Ilarraz</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html" class="logo"><img src="assets/img/work-1.jpg" alt="" class="img-fluid"></a>
 
@@ -555,108 +555,16 @@
                         <h3 class="title-a">
                             Veille technologique
                         </h3>
-                        <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
+                        <a>3 articles de veille consultés récemment et d'actualité</a>
+                        <br>
+                        <a href="https://medium.com/@calt0sow/list/reading-list">
+                            <span class="author">Toute ma reading list est disponible. Cliquer pour la découvrir</span>
+                        </a>
                         <div class="line-mf"></div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card card-blog">
-                        <div class="card-img">
-                            <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-category-box">
-                                <div class="card-category">
-                                    <h6 class="category">Travel</h6>
-                                </div>
-                            </div>
-                            <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                            <p class="card-description">
-                                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                a pellentesque nec,
-                                egestas non nisi.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <div class="post-author">
-                                <a href="#">
-                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                    <span class="author">Morgan Freeman</span>
-                                </a>
-                            </div>
-                            <div class="post-date">
-                                <span class="bi bi-clock"></span> 10 min
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-blog">
-                        <div class="card-img">
-                            <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-category-box">
-                                <div class="card-category">
-                                    <h6 class="category">Web Design</h6>
-                                </div>
-                            </div>
-                            <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                            <p class="card-description">
-                                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                a pellentesque nec,
-                                egestas non nisi.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <div class="post-author">
-                                <a href="#">
-                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                    <span class="author">Morgan Freeman</span>
-                                </a>
-                            </div>
-                            <div class="post-date">
-                                <span class="bi bi-clock"></span> 10 min
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-blog">
-                        <div class="card-img">
-                            <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-category-box">
-                                <div class="card-category">
-                                    <h6 class="category">Web Design</h6>
-                                </div>
-                            </div>
-                            <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                            <p class="card-description">
-                                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                a pellentesque nec,
-                                egestas non nisi.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <div class="post-author">
-                                <a href="#">
-                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                    <span class="author">Morgan Freeman</span>
-                                </a>
-                            </div>
-                            <div class="post-date">
-                                <span class="bi bi-clock"></span> 10 min
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="articlesVeille" class="row"></div>
         </div>
     </section><!-- End Blog Section -->
 
@@ -672,7 +580,7 @@
                                 <div class="col-md-6">
                                     <div class="title-box-2">
                                         <h5 class="title-left">
-                                            Send Message Us
+                                            Me contacter
                                         </h5>
                                     </div>
                                     <div>
@@ -754,6 +662,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="copyright-box">
+                    <p class="copyright">Crée et modifié à partir du template <strong>DevFolio</strong></p>
                     <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
                     <div class="credits">
                         <!--
@@ -783,6 +692,9 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<!-- Fichier veille.js pour afficher dynamiquement les 3 articles de veille -->
+<script src="assets/js/veille.js"></script>
 
 </body>
 
