@@ -1,0 +1,23 @@
+Asynchronous Programming in java
+31 janvier 2021
+https://rjlfinn.medium.com/asynchronous-programming-in-java-d6410d53df4d
+
+gRPC vs REST: Comparing API Styles in Practice
+14 mars 2023
+https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2a7c9a349
+
+3 Java Patterns that died in 2022
+8 octobre 2022
+https://springbootlearning.medium.com/3-java-patterns-that-died-in-2022-2896e2f35773
+
+50 Microservices Design and Architecture Interview Questions for Experienced Java Programmers
+30 janvier 2022
+https://medium.com/javarevisited/50-microservices-interview-questions-for-java-programmers-70a4a68c4349
+
+10 Extraordinary GitHub Repos for All Developers in 2022
+6 décembre 2022
+https://levelup.gitconnected.com/10-extraordinary-github-repos-for-all-developers-in-2022-be26d0181b0f
+
+The 7 Signs of a Bad Programmer
+24 janvier 2023
+https://medium.com/@tsecretdeveloper/the-7-signs-of-a-bad-programmer-a624204f7222
