@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Breeder",
+    "category": "Desktop Application",
+    "description": "Application de gestion d'un élevage en WindowsForm .NetCore lors de mon stage de 2ème année de BTS",
+    "date": "2 janvier 2023",
+    "language": "C#",
+    "url": "https://github.com/Violetow9/Breeder",
+    "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
+    "image": "assets/img/work-1.jpg"
+  },
+  {
+    "name": "Val de Somme",
+    "category": "Web Application",
+    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "date": "2022",
+    "language": "PHP / JS",
+    "url": "https://github.com/ProjectCasVds/app",
+    "image": "assets/img/work-1.jpg"
+  },
+  {
+    "name": "Random Team Assembler",
+    "category": "Desktop Application",
+    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "date": "23 octobre 2022",
+    "language": "Dart",
+    "url": "https://github.com/",
+    "image": "assets/img/work-1.jpg"
+  },
+  {
+    "name": "Soda",
+    "category": "Game Core",
+    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "date": "2022",
+    "language": "Java",
+    "url": "https://github.com/Violetow9/sprite",
+    "image": "assets/img/work-1.jpg"
+  },
+  {
+    "name": "Serkan",
+    "category": "Web Application",
+    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "date": "2022",
+    "language": "PHP / JS",
+    "url": "https://github.com/orgs/SerkanFit/repositories",
+    "image": "assets/img/work-1.jpg"
+  },
+  {
+    "name": "Bien être and go",
+    "category": "Web Application",
+    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "date": "2022",
+    "language": "WordPress",
+    "url": "https://bienetreandgo.fr/",
+    "image": "assets/img/bienetreandgo.png"
+  }
+]
