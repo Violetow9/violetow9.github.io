@@ -64,6 +64,9 @@ function loadProjects(projects) {
         wDateSpan.classList.add("w-date");
         wDateSpan.innerText = project.date;
 
+        const languageDocDiv = document.createElement("div");
+        languageDocDiv.classList.add("col-sm-8");
+
         const languageButton = document.createElement("button");
         languageButton.type = "button";
         languageButton.innerText = project.language;
@@ -78,11 +81,14 @@ function loadProjects(projects) {
         wMoreDiv.appendChild(wCategorySpan);
         wMoreDiv.appendChild(slashSpan);
         wMoreDiv.appendChild(wDateSpan);
-        wMoreDiv.appendChild(languageButton);
-        wMoreDiv.appendChild(docButton);
+
+        languageDocDiv.appendChild(languageButton);
+        languageDocDiv.appendChild(docButton);
+
         colSm8Div.appendChild(h2Title);
         colSm8Div.appendChild(pDescription);
         colSm8Div.appendChild(wMoreDiv);
+        colSm8Div.appendChild(languageDocDiv);
 
         const colSm4Div = document.createElement("div");
         colSm4Div.classList.add("col-sm-4");
