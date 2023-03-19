@@ -5,6 +5,7 @@
     "description": "Application de gestion d'un élevage en WindowsForm .NetCore lors de mon stage de 2ème année de BTS",
     "date": "2 janvier 2023",
     "language": "C#",
+    "color": "#370090",
     "url": "https://github.com/Violetow9/Breeder",
     "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
     "image": "assets/img/work-1.jpg"
@@ -15,6 +16,7 @@
     "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
     "date": "2022",
     "language": "PHP / JS",
+    "color": "#4F5B93",
     "url": "https://github.com/ProjectCasVds/app",
     "image": "assets/img/work-1.jpg"
   },
@@ -24,6 +26,7 @@
     "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
     "date": "23 octobre 2022",
     "language": "Dart",
+    "color": "#005E9C",
     "url": "https://github.com/",
     "image": "assets/img/work-1.jpg"
   },
@@ -33,6 +36,7 @@
     "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
     "date": "2022",
     "language": "Java",
+    "color": "#E01E21",
     "url": "https://github.com/Violetow9/sprite",
     "image": "assets/img/work-1.jpg"
   },
@@ -42,6 +46,7 @@
     "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
     "date": "2022",
     "language": "PHP / JS",
+    "color": "#4F5B93",
     "url": "https://github.com/orgs/SerkanFit/repositories",
     "image": "assets/img/work-1.jpg"
   },
@@ -51,6 +56,7 @@
     "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
     "date": "2022",
     "language": "WordPress",
+    "color": "#016FA0",
     "url": "https://bienetreandgo.fr/",
     "image": "assets/img/bienetreandgo.png"
   }

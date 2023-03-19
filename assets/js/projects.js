@@ -70,6 +70,7 @@ function loadProjects(projects) {
         const languageButton = document.createElement("button");
         languageButton.type = "button";
         languageButton.innerText = project.language;
+        languageButton.style.background = project.color;
         languageButton.classList.add("btn", "btn-primary", "me-2");
         languageButton.disabled = true;
 
