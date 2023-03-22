@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SOLID Principles With (almost) Real-Life Examples in Java",
+    "date": "5 janvier 2022",
+    "url": "https://betterprogramming.pub/solid-principles-with-almost-real-life-examples-in-java-b292a4e2c18b",
+    "img": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*cRdO9c0N4P0QSg9LnJPTeg.jpeg",
+    "category": "JAVA",
+    "description": "SOLID principles are some of the oldest rules in the software world. They enable us to write maintainable, readable, reusable code. In this text, I am trying to accomplish a somewhat real-life example, obeying the SOLID principles.",
+    "author": "Berke Soysal",
+    "read_time": 3
+  },
+  {
+    "name": "How to Scale Application to support Millions User",
+    "date": "17 avril 2022",
+    "url": "https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670",
+    "img": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*y0wWDCkOUAJkOuetskGuEw.png",
+    "category": "WEB PERFORMANCES",
+    "description": "Designing a system that supports millions of user is a process that requires continuous improvement and refinement. In this article, we will discuss about high level system architecture for single user first and then scale our system to millions of user.",
+    "author": "Sahil Patel",
+    "read_time": 4
+  },
+  {
+    "name": "Dependency Inversion Principle: How Google Developers write code",
+    "date": "10 avril 2022",
+    "url": "https://paigeshin1991.medium.com/dependency-inversion-principle-how-google-developers-write-code-f6cbd3b530a6",
+    "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*0QZCG375uYmgHsyK9aJMFg.png",
+    "category": "JAVA",
+    "description": "Using CompletableFuture to implement an asynchronous use case",
+    "author": "Suraj Mishra",
+    "read_time": 2
+  }
+]
