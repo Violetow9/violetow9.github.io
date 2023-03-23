@@ -21,11 +21,21 @@ window.onload = () => {
     // Formulaire de contact, quand le visiteur clique pour envoyer un message
     const btnContact = document.getElementById("btnContact");
     btnContact.onclick = () => {
-        const name = document.getElementById("")
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
 
         // Appel à ma restapi
         axios.post('/contact', {
-
+            name: name,
+            email: email,
+            subject: subject,
+            message: message
+        }).then(response => {
+            console.log(response)
+        }).catch(error => {
+            console.log(error)
         })
     };
 }
