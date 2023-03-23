@@ -1,4 +1,4 @@
-window.onload = () => {
+window.addEventListener("onload", () => {
     fetch("/veille.json")
         .then(response => response.json())
         .then(json => {
@@ -6,7 +6,7 @@ window.onload = () => {
             loadVeille(json)
         })
         .catch(reason => console.log(reason))
-}
+})
 
 function loadVeille(articles) {
     const row = document.getElementById("articlesVeille");
