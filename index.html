@@ -465,24 +465,24 @@
                                             Me contacter
                                         </h5>
                                     </div>
-                                    <div>
+                                    <form role="form" class="php-email-form">
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" name="name" class="form-control" id="name"
-                                                           placeholder="Your Name" required>
+                                                           placeholder="Nom" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="email" class="form-control" name="email" id="email"
-                                                           placeholder="Your Email" required>
+                                                           placeholder="Email" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="subject" id="subject"
-                                                           placeholder="Subject" required>
+                                                           placeholder="Sujet" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -492,17 +492,16 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-12 text-center my-3">
-                                                <div class="loading">Loading</div>
-                                                <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                                <div id="contact-error-message" style="display: none" class="error-message">Une erreur est survenue lors de l'envoi du message, veuillez rééssayer plus tard</div>
+                                                <div id="contact-success-message" style="display: none" class="sent-message">Votre message a été envoyé avec succès !</div>
                                             </div>
                                             <div class="col-md-12 text-center">
                                                 <button type="submit" id="btnContact"
-                                                        class="button button-a button-big button-rouded">Send Message
+                                                        class="button button-a button-big button-rouded">Envoyer
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="title-box-2 pt-4 pt-md-0">

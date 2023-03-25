@@ -21,10 +21,24 @@ window.onload = () => {
     // Formulaire de contact, quand le visiteur clique pour envoyer un message
     const btnContact = document.getElementById("btnContact");
     btnContact.onclick = () => {
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
+        const nameChamp = document.getElementById("name");
+        const name = nameChamp.value;
+
+        const emailChamp = document.getElementById("email");
+        const email = emailChamp.value;
+
+        const subjectChamp = document.getElementById("subject");
         const subject = document.getElementById("subject").value;
+
+        const messageChamp = document.getElementById("message");
         const message = document.getElementById("message").value;
+
+        if (!nameChamp.checkValidity() || !emailChamp.checkValidity() || !subjectChamp.checkValidity() || !messageChamp.checkValidity()) {
+            return;
+        }
+
+        const errorMessage = document.getElementById("contact-error-message");
+        const successMessage = document.getElementById("contact-success-message");
 
         // Appel à ma restapi
         axios.post('/contact', {
@@ -34,8 +48,15 @@ window.onload = () => {
             message: message
         }).then(response => {
             console.log(response)
+
+            errorMessage.style.display = "none";
+            successMessage.style.display = "block";
+
         }).catch(error => {
             console.log(error)
+
+            errorMessage.style.display = "block";
+            successMessage.style.display = "none";
         })
     };
 }
