@@ -5,7 +5,7 @@ window.onload = () => {
         .then(response => response.json())
         .then(json => {
             console.log(json)
-            loadProjects(json)
+            loadProjects2(json)
         })
         .catch(reason => console.log(reason))
 
@@ -140,6 +140,16 @@ function loadProjects(projects) {
         languageDocDiv.appendChild(languageButton);
         languageDocDiv.appendChild(docButton);
 
+        for (let technology of project.technologies) {
+            const techButton = document.createElement("button");
+            techButton.type = "button";
+            techButton.innerText = technology.name;
+            techButton.style.background = technology.color;
+            techButton.classList.add("btn", "btn-primary", "me-2");
+            techButton.disabled = true;
+            languageDocDiv.appendChild(techButton);
+        }
+
         colSm8Div.appendChild(h2Title);
         colSm8Div.appendChild(pDescription);
         colSm8Div.appendChild(wMoreDiv);
@@ -171,6 +181,166 @@ function loadProjects(projects) {
 
         rowProjects.appendChild(colDiv);
     }
+}
+
+function loadProjects2(projects) {
+    // Récupération de l'élément HTML représentant le conteneur des cartes
+    const cardContainer = document.getElementById('projects-card');
+
+// Définition des données
+    const data = [
+        {
+            image: "https://picsum.photos/200/300?random=1",
+            title: "Card 1",
+            description: "Description of card 1",
+            date: "26 March 2023",
+            text: "Programming languages",
+            buttons: [
+                {
+                    label: "Button 1",
+                    link: "#",
+                    color: "#007bff",
+                    icon: "https://picsum.photos/id/1/20/20"
+                },
+                {
+                    label: "Button 2",
+                    link: "#",
+                    color: "#dc3545",
+                    icon: "https://picsum.photos/id/2/20/20"
+                },
+                {
+                    label: "Button 3",
+                    link: "#",
+                    color: "#28a745",
+                    icon: "https://picsum.photos/id/3/20/20"
+                }
+            ]
+        },
+        {
+            image: "https://picsum.photos/200/300?random=2",
+            title: "Card 2",
+            description: "Description of card 2",
+            date: "27 March 2023",
+            text: "Web development",
+            buttons: [
+                {
+                    label: "Button 1",
+                    link: "#",
+                    color: "#007bff",
+                    icon: "https://picsum.photos/id/4/20/20"
+                },
+                {
+                    label: "Button 2",
+                    link: "#",
+                    color: "#dc3545",
+                    icon: "https://picsum.photos/id/5/20/20"
+                },
+                {
+                    label: "Button 3",
+                    link: "#",
+                    color: "#28a745",
+                    icon: "https://picsum.photos/id/6/20/20"
+                }
+            ]
+        },
+        {
+            image: "https://picsum.photos/200/300?random=3",
+            title: "Card 3",
+            description: "Description of card 3",
+            date: "28 March 2023",
+            text: "Data science",
+            buttons: [
+                {
+                    label: "Button 1",
+                    link: "#",
+                    color: "#007bff",
+                    icon: "https://picsum.photos/id/7/20/20"
+                },
+                {
+                    label: "Button 2",
+                    link: "#",
+                    color: "#dc3545",
+                    icon: "https://picsum.photos/id/8/20/20"
+                },
+                {
+                    label: "Button 3",
+                    link: "#",
+                    color: "#28a745",
+                    icon: "https://picsum.photos/id/9/20/20"
+                }
+            ]
+        }
+    ];
+
+
+// Création des éléments HTML pour chaque carte et ajout des données
+    data.forEach(item => {
+        const card = document.createElement('div');
+        card.classList.add('card', 'mb-4', 'mr-4', "mx-3", "p-0", "h-100", "rounded-0");
+        card.style.maxWidth = '348px';
+
+        const img = document.createElement('img');
+        img.src = item.image;
+        img.classList.add('card-img-top', 'w-100', 'h-100');
+        img.alt = '';
+
+        const cardBody = document.createElement('div');
+        cardBody.classList.add('card-body');
+
+        const title = document.createElement('h5');
+        title.classList.add('card-title');
+        title.textContent = item.title;
+
+        const description = document.createElement('p');
+        description.classList.add('card-text');
+        description.textContent = item.description;
+
+        const date = document.createElement('p');
+        date.classList.add('card-text', 'text-muted');
+        date.textContent = item.date;
+
+        const text = document.createElement('p');
+        text.classList.add('card-text');
+        text.textContent = item.text;
+
+        const buttonDiv = document.createElement('div');
+        buttonDiv.classList.add('mb-2');
+
+        item.buttons.forEach(button => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.classList.add('btn', 'mr-1');
+            btn.textContent = button.label;
+            btn.style.backgroundColor = button.color;
+            btn.href = button.link;
+
+            const icon = document.createElement('img');
+            icon.src = button.icon;
+            icon.classList.add('mr-2');
+            btn.appendChild(icon);
+
+            buttonDiv.appendChild(btn);
+        });
+
+        const documentationBtn = document.createElement('button');
+        documentationBtn.type = 'button';
+        documentationBtn.classList.add('btn', 'btn-primary', 'btn-block', 'mt-2');
+        documentationBtn.textContent = 'Documentation';
+
+        documentationBtn.href = item.documentationLink;
+
+        cardBody.appendChild(title);
+        cardBody.appendChild(description);
+        cardBody.appendChild(date);
+        cardBody.appendChild(text);
+        cardBody.appendChild(buttonDiv);
+        cardBody.appendChild(documentationBtn);
+
+        card.appendChild(img);
+        card.appendChild(cardBody);
+
+        cardContainer.appendChild(card);
+    });
 }
 
 
@@ -207,7 +377,7 @@ function loadVeille(articles) {
         cardCategory.className = "card-category";
 
         let cardCategoryTitle = document.createElement("h6");
-        cardCategoryTitle.className= "category";
+        cardCategoryTitle.className = "category";
         cardCategoryTitle.innerText = article.category;
 
         cardCategory.appendChild(cardCategoryTitle);

@@ -8,7 +8,13 @@
     "color": "#370090",
     "url": "https://github.com/Violetow9/Breeder",
     "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
-    "image": "assets/img/work-1.jpg"
+    "image": "assets/img/work-1.jpg",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F"
+      }
+    ]
   },
   {
     "name": "Val de Somme",
