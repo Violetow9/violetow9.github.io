@@ -274,13 +274,13 @@ function loadProjects2(projects) {
 
 
 // Création des éléments HTML pour chaque carte et ajout des données
-    data.forEach(item => {
+    data.forEach(project => {
         const card = document.createElement('div');
         card.classList.add('card', 'mb-4', 'mr-4', "mx-3", "p-0", "h-100", "rounded-0");
         card.style.maxWidth = '348px';
 
         const img = document.createElement('img');
-        img.src = item.image;
+        img.src = project.image;
         img.classList.add('card-img-top', 'w-100', 'h-100');
         img.alt = '';
 
@@ -289,45 +289,48 @@ function loadProjects2(projects) {
 
         const title = document.createElement('h5');
         title.classList.add('card-title');
-        title.textContent = item.title;
+        title.textContent = project.name;
 
         const description = document.createElement('p');
         description.classList.add('card-text');
-        description.textContent = item.description;
+        description.textContent = project.description;
 
         const date = document.createElement('p');
         date.classList.add('card-text', 'text-muted');
-        date.textContent = item.date;
+        date.textContent = project.date;
 
         const text = document.createElement('p');
         text.classList.add('card-text');
-        text.textContent = item.text;
+        text.textContent = project.language;
 
         const buttonDiv = document.createElement('div');
         buttonDiv.classList.add('mb-2');
 
-        item.buttons.forEach(button => {
+        for (const techno of project.technologies) {
             const btn = document.createElement('button');
             btn.type = 'button';
             btn.classList.add('btn', 'mr-1');
-            btn.textContent = button.label;
-            btn.style.backgroundColor = button.color;
-            btn.href = button.link;
+            btn.textContent = techno.name;
+            btn.style.backgroundColor = techno.color;
+            btn.href = techno.url;
 
+            /*
             const icon = document.createElement('img');
             icon.src = button.icon;
             icon.classList.add('mr-2');
             btn.appendChild(icon);
 
+             */
+
             buttonDiv.appendChild(btn);
-        });
+        }
 
         const documentationBtn = document.createElement('button');
         documentationBtn.type = 'button';
         documentationBtn.classList.add('btn', 'btn-primary', 'btn-block', 'mt-2');
         documentationBtn.textContent = 'Documentation';
 
-        documentationBtn.href = item.documentationLink;
+        documentationBtn.href = project.documentation;
 
         cardBody.appendChild(title);
         cardBody.appendChild(description);
@@ -342,7 +345,6 @@ function loadProjects2(projects) {
         cardContainer.appendChild(card);
     });
 }
-
 
 function loadVeille(articles) {
     const row = document.getElementById("articlesVeille");

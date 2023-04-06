@@ -12,7 +12,8 @@
     "technologies": [
       {
         "name": "MongoDB",
-        "color": "#58AD4F"
+        "color": "#58AD4F",
+        "url": ""
       }
     ]
   },
@@ -24,7 +25,14 @@
     "language": "PHP / JS",
     "color": "#4F5B93",
     "url": "https://github.com/ProjectCasVds/app",
-    "image": "assets/img/work-1.jpg"
+    "image": "assets/img/work-1.jpg",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "url": ""
+      }
+    ]
   },
   {
     "name": "Random Team Assembler",
@@ -34,7 +42,14 @@
     "language": "Dart",
     "color": "#005E9C",
     "url": "https://github.com/",
-    "image": "assets/img/work-1.jpg"
+    "image": "assets/img/work-1.jpg",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "url": ""
+      }
+    ]
   },
   {
     "name": "Soda",
@@ -44,7 +59,14 @@
     "language": "Java",
     "color": "#E01E21",
     "url": "https://github.com/Violetow9/sprite",
-    "image": "assets/img/work-1.jpg"
+    "image": "assets/img/work-1.jpg",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "url": ""
+      }
+    ]
   },
   {
     "name": "Serkan",
@@ -54,7 +76,14 @@
     "language": "PHP / JS",
     "color": "#4F5B93",
     "url": "https://github.com/orgs/SerkanFit/repositories",
-    "image": "assets/img/work-1.jpg"
+    "image": "assets/img/work-1.jpg",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "url": ""
+      }
+    ]
   },
   {
     "name": "Bien être and go",
@@ -64,6 +93,13 @@
     "language": "WordPress",
     "color": "#016FA0",
     "url": "https://bienetreandgo.fr/",
-    "image": "assets/img/bienetreandgo.png"
+    "image": "assets/img/bienetreandgo.png",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "url": ""
+      }
+    ]
   }
 ]
