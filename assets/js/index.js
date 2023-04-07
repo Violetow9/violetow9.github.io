@@ -194,7 +194,7 @@ function loadProjects2(projects) {
         card.style.maxWidth = '348px';
 
         const img = document.createElement('img');
-        img.src = project.image;
+        img.src = 'assets/img/' + project.image;
         img.classList.add('card-img-top', 'w-100', 'h-100');
         img.alt = '';
 
@@ -212,10 +212,6 @@ function loadProjects2(projects) {
         const date = document.createElement('p');
         date.classList.add('card-text', 'text-muted');
         date.textContent = project.date;
-
-        const text = document.createElement('p');
-        text.classList.add('card-text');
-        text.textContent = project.language;
 
         const buttonDiv = document.createElement('div');
         buttonDiv.classList.add('mb-2');
@@ -297,7 +293,6 @@ function loadProjects2(projects) {
         cardBody.appendChild(title);
         cardBody.appendChild(description);
         cardBody.appendChild(date);
-        cardBody.appendChild(text);
         cardBody.appendChild(buttonDiv);
         cardBody.appendChild(documentationBtn);
 

@@ -8,7 +8,7 @@
     "color": "#370090",
     "url": "https://github.com/Violetow9/Breeder",
     "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
-    "image": "assets/img/work-1.jpg",
+    "image": "breeder.png",
     "technologies": [
       {
         "name": "C#",
@@ -38,7 +38,7 @@
     "language": "PHP / JS",
     "color": "#4F5B93",
     "url": "https://github.com/ProjectCasVds/app",
-    "image": "assets/img/work-1.jpg",
+    "image": "valdesomme.jpg",
     "technologies": [
       {
         "name": "Php",
@@ -146,7 +146,7 @@
     "language": "WordPress",
     "color": "#016FA0",
     "url": "https://bienetreandgo.fr/",
-    "image": "assets/img/bienetreandgo.png",
+    "image": "bienetreandgo.png",
     "technologies": [
       {
         "name": "WordPress",
