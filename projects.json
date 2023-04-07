@@ -11,8 +11,21 @@
     "image": "assets/img/work-1.jpg",
     "technologies": [
       {
-        "name": "MongoDB",
+        "name": "C#",
+        "color": "#005E9C",
+        "image": "csharp.png",
+        "url": ""
+      },
+      {
+        "name": ".NET Core",
+        "color": "#005E9C",
+        "image": "netcore.png",
+        "url": ""
+      },
+      {
+        "name": "MySQL",
         "color": "#58AD4F",
+        "image": "mysql.png",
         "url": ""
       }
     ]
@@ -28,8 +41,21 @@
     "image": "assets/img/work-1.jpg",
     "technologies": [
       {
-        "name": "MongoDB",
+        "name": "Php",
+        "color": "#005E9C",
+        "image": "php.png",
+        "url": ""
+      },
+      {
+        "name": "HTML5, CSS3, Javascript",
+        "color": "#005E9C",
+        "image": "htmlcssjs.png",
+        "url": ""
+      },
+      {
+        "name": "MySQL",
         "color": "#58AD4F",
+        "image": "mysql.png",
         "url": ""
       }
     ]
@@ -45,8 +71,15 @@
     "image": "assets/img/work-1.jpg",
     "technologies": [
       {
-        "name": "MongoDB",
-        "color": "#58AD4F",
+        "name": "Dart",
+        "color": "#005E9C",
+        "image": "dart.png",
+        "url": ""
+      },
+      {
+        "name": "Flutter",
+        "color": "#005E9C",
+        "image": "flutter.png",
         "url": ""
       }
     ]
@@ -62,8 +95,27 @@
     "image": "assets/img/work-1.jpg",
     "technologies": [
       {
+        "name": "Java",
+        "color": "#005E9C",
+        "image": "java.png",
+        "url": ""
+      },
+      {
         "name": "MongoDB",
         "color": "#58AD4F",
+        "image": "mongodb.png",
+        "url": ""
+      },
+      {
+        "name": "RabbitMQ",
+        "color": "#58AD4F",
+        "image": "rabbitmq.png",
+        "url": ""
+      },
+      {
+        "name": "Redis",
+        "color": "#58AD4F",
+        "image": "redis.png",
         "url": ""
       }
     ]
@@ -81,6 +133,7 @@
       {
         "name": "MongoDB",
         "color": "#58AD4F",
+        "image": "mongodb.png",
         "url": ""
       }
     ]
@@ -96,8 +149,9 @@
     "image": "assets/img/bienetreandgo.png",
     "technologies": [
       {
-        "name": "MongoDB",
+        "name": "WordPress",
         "color": "#58AD4F",
+        "image": "wordpress.png",
         "url": ""
       }
     ]

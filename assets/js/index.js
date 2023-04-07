@@ -187,94 +187,8 @@ function loadProjects2(projects) {
     // Récupération de l'élément HTML représentant le conteneur des cartes
     const cardContainer = document.getElementById('projects-card');
 
-// Définition des données
-    const data = [
-        {
-            image: "https://picsum.photos/200/300?random=1",
-            title: "Card 1",
-            description: "Description of card 1",
-            date: "26 March 2023",
-            text: "Programming languages",
-            buttons: [
-                {
-                    label: "Button 1",
-                    link: "#",
-                    color: "#007bff",
-                    icon: "https://picsum.photos/id/1/20/20"
-                },
-                {
-                    label: "Button 2",
-                    link: "#",
-                    color: "#dc3545",
-                    icon: "https://picsum.photos/id/2/20/20"
-                },
-                {
-                    label: "Button 3",
-                    link: "#",
-                    color: "#28a745",
-                    icon: "https://picsum.photos/id/3/20/20"
-                }
-            ]
-        },
-        {
-            image: "https://picsum.photos/200/300?random=2",
-            title: "Card 2",
-            description: "Description of card 2",
-            date: "27 March 2023",
-            text: "Web development",
-            buttons: [
-                {
-                    label: "Button 1",
-                    link: "#",
-                    color: "#007bff",
-                    icon: "https://picsum.photos/id/4/20/20"
-                },
-                {
-                    label: "Button 2",
-                    link: "#",
-                    color: "#dc3545",
-                    icon: "https://picsum.photos/id/5/20/20"
-                },
-                {
-                    label: "Button 3",
-                    link: "#",
-                    color: "#28a745",
-                    icon: "https://picsum.photos/id/6/20/20"
-                }
-            ]
-        },
-        {
-            image: "https://picsum.photos/200/300?random=3",
-            title: "Card 3",
-            description: "Description of card 3",
-            date: "28 March 2023",
-            text: "Data science",
-            buttons: [
-                {
-                    label: "Button 1",
-                    link: "#",
-                    color: "#007bff",
-                    icon: "https://picsum.photos/id/7/20/20"
-                },
-                {
-                    label: "Button 2",
-                    link: "#",
-                    color: "#dc3545",
-                    icon: "https://picsum.photos/id/8/20/20"
-                },
-                {
-                    label: "Button 3",
-                    link: "#",
-                    color: "#28a745",
-                    icon: "https://picsum.photos/id/9/20/20"
-                }
-            ]
-        }
-    ];
-
-
-// Création des éléments HTML pour chaque carte et ajout des données
-    data.forEach(project => {
+    // Création des éléments HTML pour chaque carte et ajout des données
+    projects.forEach(project => {
         const card = document.createElement('div');
         card.classList.add('card', 'mb-4', 'mr-4', "mx-3", "p-0", "h-100", "rounded-0");
         card.style.maxWidth = '348px';
@@ -307,6 +221,54 @@ function loadProjects2(projects) {
         buttonDiv.classList.add('mb-2');
 
         for (const techno of project.technologies) {
+            // Créer le bouton
+            const button = document.createElement('button');
+            button.setAttribute('id', 'myButton');
+            button.classList.add('btn', 'mr-1');
+            //button.style.backgroundColor = techno.color;
+            button.href = techno.url;
+
+            //const buttonText = document.createTextNode(techno.name);
+            //button.appendChild(buttonText);
+
+            const buttonImage = document.createElement('img');
+            buttonImage.setAttribute('src', 'assets/img/' + techno.image);
+            //buttonImage.setAttribute('alt', 'Image de bouton');
+            button.appendChild(buttonImage);
+
+            buttonImage.style.maxHeight = '100%';
+            buttonImage.style.maxWidth = '100%';
+
+// Ajouter des styles CSS au bouton et à l'image
+            button.style.display = 'inline-flex';
+            button.style.alignItems = 'center';
+            button.style.justifyContent = 'center';
+            button.style.padding = '3.5px 7px';
+            //button.style.backgroundColor = '#007bff';
+            //button.style.color = '#fff';
+            button.style.borderRadius = '10px';
+            button.style.border = 'none';
+            button.style.fontSize = '18px';
+            button.style.fontWeight = 'bold';
+            button.style.textAlign = 'center';
+            button.style.width = '100px';
+            buttonImage.style.marginRight = '10px';
+
+            /*
+            // Ajouter le bouton au DOM
+            const buttonContainer = document.getElementById('button-container');
+            buttonContainer.appendChild(button);
+
+            // Changer le texte du bouton
+            buttonText.textContent = 'Nouveau texte';
+
+// Changer l'image du bouton
+            buttonImage.setAttribute('src', 'nouvelle-image.png');
+
+             */
+
+
+            /*
             const btn = document.createElement('button');
             btn.type = 'button';
             btn.classList.add('btn', 'mr-1');
@@ -322,7 +284,7 @@ function loadProjects2(projects) {
 
              */
 
-            buttonDiv.appendChild(btn);
+            buttonDiv.appendChild(button);
         }
 
         const documentationBtn = document.createElement('button');
