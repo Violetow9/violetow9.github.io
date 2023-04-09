@@ -283,11 +283,14 @@ function loadProjects2(projects) {
             buttonDiv.appendChild(button);
         }
 
+
         const documentationBtn = document.createElement('button');
         documentationBtn.type = 'button';
         documentationBtn.classList.add('btn', 'btn-primary', 'btn-block', 'mt-2');
-        documentationBtn.textContent = 'Documentation';
-        documentationBtn.href = project.url;
+        documentationBtn.textContent = 'Code source';
+        documentationBtn.addEventListener("click", ev => {
+            window.open(project.url);
+        });
 
         cardBody.appendChild(title);
         cardBody.appendChild(description);
