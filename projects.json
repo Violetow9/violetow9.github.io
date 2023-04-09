@@ -63,12 +63,12 @@
   {
     "name": "Random Team Assembler",
     "category": "Desktop Application",
-    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "description": "Application de bureau réalisée en Flutter qui permet de générer aléatoirement des roles aux joueurs sur plusieurs maps pour les matchs d'entrainement sur Overwatch à l'aide d'un fichier de config en JSON.",
     "date": "23 octobre 2022",
     "language": "Dart",
     "color": "#005E9C",
-    "url": "https://github.com/",
-    "image": "assets/img/work-1.jpg",
+    "url": "https://github.com/Violetow9/random_team_assembler_flutter",
+    "image": "randomteamassembler.png",
     "technologies": [
       {
         "name": "Dart",

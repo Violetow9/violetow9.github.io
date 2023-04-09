@@ -287,8 +287,7 @@ function loadProjects2(projects) {
         documentationBtn.type = 'button';
         documentationBtn.classList.add('btn', 'btn-primary', 'btn-block', 'mt-2');
         documentationBtn.textContent = 'Documentation';
-
-        documentationBtn.href = project.documentation;
+        documentationBtn.href = project.url;
 
         cardBody.appendChild(title);
         cardBody.appendChild(description);
