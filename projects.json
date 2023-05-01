@@ -27,6 +27,67 @@
         "color": "#58AD4F",
         "image": "mysql.png",
         "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "GSB",
+    "category": "Desktop Application",
+    "description": "Application de gestion d'un élevage en WindowsForm .NetCore lors de mon stage de 2ème année de BTS",
+    "date": "2 janvier 2023",
+    "language": "C#",
+    "color": "#370090",
+    "url": "https://github.com/Violetow9/Breeder",
+    "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
+    "image": "gsb.png",
+    "technologies": [
+      {
+        "name": "C#",
+        "color": "#005E9C",
+        "image": "csharp.png",
+        "url": ""
+      },
+      {
+        "name": ".NET Framework",
+        "color": "#005E9C",
+        "image": "netframework.png",
+        "url": ""
+      },
+      {
+        "name": "MySQL",
+        "color": "#58AD4F",
+        "image": "mysql.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      },
+      {
+        "name": "Trello",
+        "color": "#171515",
+        "image": "trello.png",
+        "url": ""
       }
     ]
   },
@@ -41,7 +102,7 @@
     "image": "valdesomme.png",
     "technologies": [
       {
-        "name": "Php",
+        "name": "PHP",
         "color": "#005E9C",
         "image": "php.png",
         "url": ""
@@ -56,6 +117,24 @@
         "name": "MySQL",
         "color": "#58AD4F",
         "image": "mysql.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
         "url": ""
       }
     ]
@@ -81,18 +160,30 @@
         "color": "#005E9C",
         "image": "flutter.png",
         "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
       }
     ]
   },
   {
     "name": "Soda",
     "category": "Game Core",
-    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "description": "Infrastructure de jeux avec proxy pour Minecraft",
     "date": "2022",
     "language": "Java",
     "color": "#E01E21",
     "url": "https://github.com/Violetow9/sprite",
-    "image": "assets/img/work-1.jpg",
+    "image": "soda.png",
     "technologies": [
       {
         "name": "Java",
@@ -117,6 +208,24 @@
         "color": "#58AD4F",
         "image": "redis.png",
         "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
       }
     ]
   },
@@ -128,12 +237,132 @@
     "language": "PHP / JS",
     "color": "#4F5B93",
     "url": "https://github.com/orgs/SerkanFit/repositories",
-    "image": "assets/img/work-1.jpg",
+    "image": "serkan.png",
     "technologies": [
+      {
+        "name": "GoLang",
+        "color": "#00ACD7",
+        "image": "golang.png",
+        "url": ""
+      },
+      {
+        "name": "NodeJS",
+        "color": "#75AD63",
+        "image": "nodejs.png",
+        "url": ""
+      },
       {
         "name": "MongoDB",
         "color": "#58AD4F",
         "image": "mongodb.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      },
+      {
+        "name": "Miro",
+        "color": "#609A21",
+        "image": "miro.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Odyssey",
+    "category": "Game Core",
+    "description": "Infrastructure de jeux avec proxy pour Minecraft",
+    "date": "2020-2022",
+    "language": "Java",
+    "color": "#E01E21",
+    "url": "https://git.tolnkee.com/",
+    "image": "odyssey.svg",
+    "technologies": [
+      {
+        "name": "Java",
+        "color": "#005E9C",
+        "image": "java.png",
+        "url": ""
+      },
+      {
+        "name": "GoLang",
+        "color": "#00ACD7",
+        "image": "golang.png",
+        "url": ""
+      },
+      {
+        "name": "NodeJS",
+        "color": "#75AD63",
+        "image": "nodejs.png",
+        "url": ""
+      },
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "image": "mongodb.png",
+        "url": ""
+      },
+      {
+        "name": "RabbitMQ",
+        "color": "#58AD4F",
+        "image": "rabbitmq.png",
+        "url": ""
+      },
+      {
+        "name": "Redis",
+        "color": "#58AD4F",
+        "image": "redis.png",
+        "url": ""
+      },
+      {
+        "name": "Jenkins",
+        "color": "#58AD4F",
+        "image": "jenkins.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Kubernetes",
+        "color": "#FFFFFF",
+        "image": "k8s.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "Gitea",
+        "color": "#609A21",
+        "image": "gitea.png",
+        "url": ""
+      },
+      {
+        "name": "Miro",
+        "color": "#609A21",
+        "image": "miro.png",
         "url": ""
       }
     ]
@@ -152,6 +381,60 @@
         "name": "WordPress",
         "color": "#58AD4F",
         "image": "wordpress.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "VLG",
+    "category": "Web App",
+    "description": "Application Web de jeux pour le Loup-Garou Thiercelieux",
+    "date": "2023",
+    "language": "Java",
+    "color": "#E01E21",
+    "url": "https://github.com/VillersLoupGarou",
+    "image": "vlg.png",
+    "technologies": [
+      {
+        "name": "Java",
+        "color": "#005E9C",
+        "image": "java.png",
+        "url": ""
+      },
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "image": "mongodb.png",
+        "url": ""
+      },
+      {
+        "name": "WebSocket",
+        "color": "#FFDF5A",
+        "image": "websocket.png",
+        "url": ""
+      },
+      {
+        "name": "Redis",
+        "color": "#58AD4F",
+        "image": "redis.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
         "url": ""
       }
     ]

@@ -18,6 +18,25 @@ window.onload = () => {
         })
         .catch(reason => console.log(reason))
 
+    fetch("http://violetow9.me/githubdata.php")
+        .then(response => response.json())
+        .then(json => {
+            console.log(json)
+
+            const reposCount = document.getElementById("repos-count");
+            reposCount.setAttribute("data-purecounter-end", json.repos_count);
+
+            const commitsCount = document.getElementById("commits-count");
+            commitsCount.setAttribute("data-purecounter-end", json.commits_count);
+
+            const collaboratorsCount = document.getElementById("collaborators-count");
+            collaboratorsCount.setAttribute("data-purecounter-end", json.collaborators_count);
+
+            const orgsCount = document.getElementById("orgs-count");
+            orgsCount.setAttribute("data-purecounter-end", json.orgs_count);
+        })
+        .catch(reason => console.log(reason));
+
     // Formulaire de contact, quand le visiteur clique pour envoyer un message
     const btnContact = document.getElementById("btnContact");
     btnContact.onclick = () => {
@@ -41,24 +60,34 @@ window.onload = () => {
         const successMessage = document.getElementById("contact-success-message");
 
         // Appel à ma restapi
-        axios.post('/contact', {
-            name: name,
-            email: email,
-            subject: subject,
-            message: message
-        }).then(response => {
-            console.log(response)
+        let data = new FormData();
+        data.append("nom", name);
+        data.append("email", email);
+        data.append("sujet", subject);
+        data.append("message", message);
+
+        axios({
+            method: "post",
+            url: "http://violetow9.me/contact.php",
+            data: data,
+            headers: {"Content-Type": "multipart/form-data"},
+        }).then(function (response) {
+            //handle success
+            console.log(response);
 
             errorMessage.style.display = "none";
             successMessage.style.display = "block";
-
-        }).catch(error => {
-            console.log(error)
+        }).catch(function (response) {
+            //handle error
+            console.log(response);
 
             errorMessage.style.display = "block";
             successMessage.style.display = "none";
-        })
+        });
     };
+
+    const mentionLegalesButton = document.getElementById("btnMentionsLegales");
+    mentionLegalesButton.addEventListener('click', afficherMentionsLegales);
 }
 
 
@@ -392,4 +421,70 @@ function loadVeille(articles) {
 
         row.appendChild(col);
     }
+}
+
+function afficherMentionsLegales() {
+    // Créer un élément div pour la popup
+    var popup = document.createElement('div');
+
+    // Ajouter du texte à la popup
+    var texte = document.createElement('div');
+
+    // Ajouter une partie de texte avec un intitulé
+    var partie1 = document.createElement('div');
+    var titre1 = document.createElement('h2');
+    var texte1 = document.createTextNode('Intitulé de la première partie');
+    var contenu1 = document.createTextNode('Contenu de la première partie');
+    titre1.appendChild(texte1);
+    partie1.appendChild(titre1);
+    partie1.appendChild(contenu1);
+
+    // Ajouter une partie de texte avec un intitulé
+    var partie2 = document.createElement('div');
+    var titre2 = document.createElement('h2');
+    var texte2 = document.createTextNode('Intitulé de la deuxième partie');
+    var contenu2 = document.createTextNode('Contenu de la deuxième partie');
+    titre2.appendChild(texte2);
+    partie2.appendChild(titre2);
+    partie2.appendChild(contenu2);
+
+    // Ajouter les parties de texte à l'élément texte
+    texte.appendChild(partie1);
+    texte.appendChild(partie2);
+
+    // Appliquer des classes Bootstrap CSS à l'élément texte et à ses enfants
+    texte.classList.add('container', 'my-5');
+    partie1.classList.add('py-3');
+    titre1.classList.add('mb-4');
+    partie2.classList.add('py-3');
+    titre2.classList.add('mb-4');
+
+    popup.appendChild(texte);
+
+
+    // Créer un bouton de fermeture pour la popup
+    var boutonFermer = document.createElement('button');
+    boutonFermer.classList.add('button-a', "button-big", "button-rouded");
+
+    var texteBouton = document.createTextNode('Fermer');
+    boutonFermer.appendChild(texteBouton);
+    boutonFermer.style.marginTop = '10px';
+    boutonFermer.addEventListener('click', function () {
+        popup.style.display = 'none';
+    });
+    popup.appendChild(boutonFermer);
+
+    // Appliquer du style à la popup
+    popup.style.position = 'fixed';
+    popup.style.top = '50%';
+    popup.style.left = '50%';
+    popup.style.transform = 'translate(-50%, -50%)';
+    popup.style.padding = '20px';
+    popup.style.background = '#fff';
+    popup.style.border = '1px solid #ccc';
+    popup.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.3)';
+    popup.style.zIndex = '9999';
+
+    // Ajouter la popup à la page
+    document.body.appendChild(popup);
 }

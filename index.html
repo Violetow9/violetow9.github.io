@@ -19,6 +19,8 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/25c3f795a0.js" crossorigin="anonymous"></script>
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -35,37 +37,21 @@
 
         <h1 class="logo"><a href="index.html">Portfolio Hugo Ilarraz</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo"><img src="assets/img/work-1.jpg" alt="" class="img-fluid"></a>
+        <!-- <a href="index.html" class="logo"><img src="assets/img/work-1.jpg" alt="" class="img-fluid"></a> -->
 
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+                <li><a id="cv" href="assets/file/cv.pdf">CV</a></li>
                 <li><a class="nav-link scrollto" href="#about">À propos</a></li>
                 <li><a class="nav-link scrollto " href="#work">Projets</a></li>
-                <li><a class="nav-link scrollto " href="#veille">Veille</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                    </ul>
-                </li>
+                <li><a class="nav-link scrollto " href="#stage">Stages</a></li>
+                <li><a class="nav-link scrollto " href="#veille">Veille Technologique</a></li>
+                <li><a class="nav-link scrollto" href="#services">Centres d'intérêt</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
-
     </div>
 </header><!-- End Header -->
 
@@ -76,10 +62,8 @@
         <div class="table-cell">
             <div class="container">
                 <!--<p class="display-6 color-d">Hello, world!</p>-->
-                <h1 class="hero-title mb-4">I am Morgan Freeman</h1>
-                <p class="hero-subtitle"><span class="typed"
-                                               data-typed-items="Designer, Developer, Freelancer, Photographer"></span>
-                </p>
+                <h1 class="hero-title mb-4">Bienvenue sur mon portfolio !</h1>
+                <p class="hero-subtitle"><span class="typed" data-typed-items="Hello World !"></span></p>
                 <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
             </div>
         </div>
@@ -154,6 +138,10 @@
                                         </h5>
                                     </div>
                                     <p class="lead">
+                                        Je m'appelle Hugo Ilarraz, j'ai actuellement 21 ans et je suis en BTS SIO (Serives Informatiques aux Organisations)
+                                        en spécialité SLAM (Solutions Logicielles et Applications Métiers).
+                                        
+
                                         Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur
                                         arcu erat, accumsan id
                                         imperdiet et, porttitor
@@ -182,14 +170,14 @@
         </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Centres d'intérêt Section ======= -->
     <section id="services" class="services-mf pt-5 route">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="title-box text-center">
                         <h3 class="title-a">
-                            Services
+                            Centres d'intérêt
                         </h3>
                         <p class="subtitle-a">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -202,15 +190,30 @@
                 <div class="col-md-4">
                     <div class="service-box">
                         <div class="service-ico">
-                            <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                            <span class="ico-circle"><i class="bi bi-hdd-stack"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Web Design</h2>
+                            <h2 class="s-title">Développement Back-End</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+                                Le développement back-end, souvent appelé développement "côté serveur", consiste à rendre tous les rouages internes d'un site Web ou d'une application invisibles pour l'utilisateur
+                            </p>
+                            <p class="s-description text-center fw-bold">
+                                Frameworks Back-End JavaScript :
+                            </p>
+                            <p class="s-description text-center">
+                                Express, Koa, Meteo, Fastify etc
+                            </p>
+                            <p class="s-description text-center fw-bold">
+                                Frameworks Back-End Java :
+                            </p>
+                            <p class="s-description text-center">
+                                Spring, Struts, Hibernate etc
+                            </p>
+                            <p class="s-description text-center fw-bold">
+                                Frameworks Back-End PHP :
+                            </p>
+                            <p class="s-description text-center">
+                                Laravel, Lumen, Sympfony etc
                             </p>
                         </div>
                     </div>
@@ -218,15 +221,15 @@
                 <div class="col-md-4">
                     <div class="service-box">
                         <div class="service-ico">
-                            <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                            <span class="ico-circle"><i class="bi bi-database"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Web Development</h2>
+                            <h2 class="s-title">Bases de données relationnelles</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+                                Définition: La base de données relationnelle stocke les données dans des tables, qui peuvent être accessibles et reconstruites de différentes manières, et qui sont elles-mêmes composées de lignes et de colonnes. Le langage de requête structuré (SQL) permet d’interroger la donnée de façon interactive et ainsi de collecter les données dans le cadre de rapports.
+                            </p>
+                            <p class="s-description text-center">
+                                Exemples: MySQL, PostgreSQL, SQL Server
                             </p>
                         </div>
                     </div>
@@ -234,63 +237,27 @@
                 <div class="col-md-4">
                     <div class="service-box">
                         <div class="service-ico">
-                            <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+                            <span class="ico-circle"><i class="bi bi-database"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Photography</h2>
+                            <h2 class="s-title">Bases de données non relationnelles (NoSQL)</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+                                A contrario, la base de données non relationnelle permet de stocker des données volumineuses. Celles-ci peuvent être regroupées sur plusieurs machines afin de réduire les coûts de maintenance.
                             </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Responsive Design</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+                                Les bases de données NoSQL peuvent être de différents types :
                             </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Graphic Design</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+                            <p class="s-description text-center fw-bold">
+                                Bases de documents : Les données dynamiques y sont stockées, au format JavaScript Object Notation (JSON). Par exemple : CouchDB, Mongo
                             </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Marketing Services</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+                            <p class="s-description text-center fw-bold">
+                                Base de données de colonnes : Elle est utile pour analyser les données. Par exemple : Apache Cassandra
+                            </p>
+                            <p class="s-description text-center fw-bold">
+                                Bases de données en cache : Les données sont stockées sur le disque ou le cache. Par exemple : Memcache, Redis
+                            </p>
+                            <p class="s-description text-center fw-bold">
+                                Bases de données graphiques : Elle est composée de nœuds et créé des relations en utilisant des arêtes. Par exemple. Oracle NoSQL, Neo4J.
                             </p>
                         </div>
                     </div>
@@ -307,24 +274,24 @@
                 <div class="col-sm-3 col-lg-3">
                     <div class="counter-box counter-box pt-4 pt-md-0">
                         <div class="counter-ico">
-                            <span class="ico-circle"><i class="bi bi-check"></i></span>
+                            <span class="ico-circle"><i class="bi bi-github"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1"
+                            <p id="repos-count" data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1"
                                class="counter purecounter"></p>
-                            <span class="counter-text">WORKS COMPLETED</span>
+                            <span class="counter-text">DÊPOTS GITHUB</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3 col-lg-3">
                     <div class="counter-box pt-4 pt-md-0">
                         <div class="counter-ico">
-                            <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                            <span class="ico-circle"><i class="bi bi-arrow-bar-up"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                            <p id="commits-count" data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
                                class="counter purecounter"></p>
-                            <span class="counter-text">YEARS OF EXPERIENCE</span>
+                            <span class="counter-text">COMMITS EFFECTUÉS</span>
                         </div>
                     </div>
                 </div>
@@ -334,21 +301,21 @@
                             <span class="ico-circle"><i class="bi bi-people"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1"
+                            <p id="collaborators-count" data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1"
                                class="counter purecounter"></p>
-                            <span class="counter-text">TOTAL CLIENTS</span>
+                            <span class="counter-text">COLLABORATEURS</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3 col-lg-3">
                     <div class="counter-box pt-4 pt-md-0">
                         <div class="counter-ico">
-                            <span class="ico-circle"><i class="bi bi-award"></i></span>
+                            <span class="ico-circle"><i class="bi bi-people-fill"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1"
+                            <p id="orgs-count" data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1"
                                class="counter purecounter"></p>
-                            <span class="counter-text">AWARD WON</span>
+                            <span class="counter-text">ORGANISATIONS</span>
                         </div>
                     </div>
                 </div>
@@ -363,12 +330,12 @@
                 <div class="col-sm-12">
                     <div class="title-box text-center">
                         <h3 class="title-a">
-                            Portfolio
+                            Mes Projets
                         </h3>
                         <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Pour plus d'informations sur mes projets, consulter mon GitHub
                         </p>
-                        <div class="line-mf"></div>
+                        <a href="https://github.com/Violetow9" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> Mon profil GitHub</a>
                     </div>
                 </div>
             </div>
@@ -433,7 +400,7 @@
         </div>
     </div><!-- End Testimonials Section -->
 
-    <!-- ======= Blog Section ======= -->
+    <!-- ======= Veille Technologique ======= -->
     <section id="veille" class="blog-mf sect-pt4 route">
         <div class="container">
             <div class="row">
@@ -442,8 +409,33 @@
                         <h3 class="title-a">
                             Veille technologique
                         </h3>
-                        <a>3 articles de veille consultés récemment et d'actualité</a>
-                        <br>
+                        <div class="container my-5">
+                            <div class="py-3">
+                                <h2 class="mb-4">Qu’est-ce que la veille technologique ?</h2>
+                                <p>La veille technologique par définition c’est le fait se tenir informé des dernières sorties technologiques</p>
+                            </div>
+                            <div class="py-3">
+                                <h2 class="mb-4">Qu’est-ce que la curation ?</h2>
+                                <p>La curation, c’est laisser quelqu’un ou quelque chose agréger le contenu pour toi.</p>
+                                <p>La curation rassemble différents contenus, les choisis, les tris, et t’en présente tout ou parti</p>
+                            </div>
+                            <div class="py-3">
+                                <h2 class="mb-4">Les créateurs de contenu que j'ai choisi:</h2>
+                                <p>
+                                    <a href="https://medium.com/">1. Medium</a>
+                                </p>
+                                <p>
+                                    <a href="https://daily.dev/">2. Daily.dev (Extension)</a>
+                                </p>
+                            </div>
+                            <div class="py-3">
+                                <h2 class="mb-4">Ma Reading List Medium:</h2>
+                                <p>
+                                    <a target="_blank" href="https://medium.com/@calt0sow/list/reading-list">
+                                        Toute ma reading list est disponible. (Cliquer pour ouvrir dans un nouvel onglet)</a>
+                                </p>
+                            </div>
+                        </div>
                         <a href="https://medium.com/@calt0sow/list/reading-list">
                             <span class="author">Toute ma reading list est disponible. Cliquer pour la découvrir</span>
                         </a>
@@ -463,7 +455,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="contact-mf">
-                        <div id="contact" class="box-shadow-full">
+                        <div class="box-shadow-full">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="title-box-2">
@@ -512,7 +504,7 @@
                                 <div class="col-md-6">
                                     <div class="title-box-2 pt-4 pt-md-0">
                                         <h5 class="title-left">
-                                            Get in Touch
+                                            Informations de contact
                                         </h5>
                                     </div>
                                     <div class="more-info">
@@ -524,22 +516,13 @@
                                             mollitia inventore?
                                         </p>
                                         <ul class="list-ico">
-                                            <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108
-                                            </li>
-                                            <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                                            <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                                            <li><span class="bi bi-geo-alt"></span> Amiens</li>
+                                            <li><span class="bi bi-envelope"></span> contacthugoilarraz@gmail.com</li>
                                         </ul>
                                     </div>
                                     <div class="socials">
                                         <ul>
-                                            <li><a href=""><span class="ico-circle"><i
-                                                    class="bi bi-facebook"></i></span></a></li>
-                                            <li><a href=""><span class="ico-circle"><i
-                                                    class="bi bi-instagram"></i></span></a></li>
-                                            <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a>
-                                            </li>
-                                            <li><a href=""><span class="ico-circle"><i
-                                                    class="bi bi-linkedin"></i></span></a></li>
+                                            <li><a href="https://www.linkedin.com/in/hugo-ilarraz-9b4786230/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -561,6 +544,7 @@
                 <div class="copyright-box">
                     <p class="copyright">Crée et modifié à partir du template <strong>DevFolio</strong></p>
                     <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+                    <button id="btnMentionsLegales" class="button-a bg-dark bi-menu-button button-rouded">Mentions Légales</button>
                     <div class="credits">
                         <!--
                         All the links in the footer should remain intact.
