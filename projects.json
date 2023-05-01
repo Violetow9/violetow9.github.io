@@ -1,297 +1,13 @@
 [
   {
-    "name": "Breeder",
-    "category": "Desktop Application",
-    "description": "Application de gestion d'un élevage en WindowsForm .NetCore lors de mon stage de 2ème année de BTS",
-    "date": "2 janvier 2023",
-    "language": "C#",
-    "color": "#370090",
-    "url": "https://github.com/Violetow9/Breeder",
-    "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
-    "image": "breeder.png",
-    "technologies": [
-      {
-        "name": "C#",
-        "color": "#005E9C",
-        "image": "csharp.png",
-        "url": ""
-      },
-      {
-        "name": ".NET Core",
-        "color": "#005E9C",
-        "image": "netcore.png",
-        "url": ""
-      },
-      {
-        "name": "MySQL",
-        "color": "#58AD4F",
-        "image": "mysql.png",
-        "url": ""
-      },
-      {
-        "name": "Git",
-        "color": "#F05030",
-        "image": "git.png",
-        "url": ""
-      },
-      {
-        "name": "GitHub",
-        "color": "#171515",
-        "image": "github.png",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "name": "GSB",
-    "category": "Desktop Application",
-    "description": "Application de gestion d'un élevage en WindowsForm .NetCore lors de mon stage de 2ème année de BTS",
-    "date": "2 janvier 2023",
-    "language": "C#",
-    "color": "#370090",
-    "url": "https://github.com/Violetow9/Breeder",
-    "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
-    "image": "gsb.png",
-    "technologies": [
-      {
-        "name": "C#",
-        "color": "#005E9C",
-        "image": "csharp.png",
-        "url": ""
-      },
-      {
-        "name": ".NET Framework",
-        "color": "#005E9C",
-        "image": "netframework.png",
-        "url": ""
-      },
-      {
-        "name": "MySQL",
-        "color": "#58AD4F",
-        "image": "mysql.png",
-        "url": ""
-      },
-      {
-        "name": "Git",
-        "color": "#F05030",
-        "image": "git.png",
-        "url": ""
-      },
-      {
-        "name": "GitHub",
-        "color": "#171515",
-        "image": "github.png",
-        "url": ""
-      },
-      {
-        "name": "Trello",
-        "color": "#171515",
-        "image": "trello.png",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "name": "Val de Somme",
-    "category": "Web Application",
-    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
-    "date": "2022",
-    "language": "PHP / JS",
-    "color": "#4F5B93",
-    "url": "https://github.com/ProjectCasVds/app",
-    "image": "valdesomme.png",
-    "technologies": [
-      {
-        "name": "PHP",
-        "color": "#005E9C",
-        "image": "php.png",
-        "url": ""
-      },
-      {
-        "name": "HTML5, CSS3, Javascript",
-        "color": "#005E9C",
-        "image": "htmlcssjs.png",
-        "url": ""
-      },
-      {
-        "name": "MySQL",
-        "color": "#58AD4F",
-        "image": "mysql.png",
-        "url": ""
-      },
-      {
-        "name": "Docker",
-        "color": "#2496ED",
-        "image": "docker.png",
-        "url": ""
-      },
-      {
-        "name": "Git",
-        "color": "#F05030",
-        "image": "git.png",
-        "url": ""
-      },
-      {
-        "name": "GitHub",
-        "color": "#171515",
-        "image": "github.png",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "name": "Random Team Assembler",
-    "category": "Desktop Application",
-    "description": "Application de bureau réalisée en Flutter qui permet de générer aléatoirement des roles aux joueurs sur plusieurs maps pour les matchs d'entrainement sur Overwatch à l'aide d'un fichier de config en JSON.",
-    "date": "23 octobre 2022",
-    "language": "Dart",
-    "color": "#005E9C",
-    "url": "https://github.com/Violetow9/random_team_assembler_flutter",
-    "image": "randomteamassembler.png",
-    "technologies": [
-      {
-        "name": "Dart",
-        "color": "#005E9C",
-        "image": "dart.png",
-        "url": ""
-      },
-      {
-        "name": "Flutter",
-        "color": "#005E9C",
-        "image": "flutter.png",
-        "url": ""
-      },
-      {
-        "name": "Git",
-        "color": "#F05030",
-        "image": "git.png",
-        "url": ""
-      },
-      {
-        "name": "GitHub",
-        "color": "#171515",
-        "image": "github.png",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "name": "Soda",
-    "category": "Game Core",
-    "description": "Infrastructure de jeux avec proxy pour Minecraft",
-    "date": "2022",
-    "language": "Java",
-    "color": "#E01E21",
-    "url": "https://github.com/Violetow9/sprite",
-    "image": "soda.png",
-    "technologies": [
-      {
-        "name": "Java",
-        "color": "#005E9C",
-        "image": "java.png",
-        "url": ""
-      },
-      {
-        "name": "MongoDB",
-        "color": "#58AD4F",
-        "image": "mongodb.png",
-        "url": ""
-      },
-      {
-        "name": "RabbitMQ",
-        "color": "#58AD4F",
-        "image": "rabbitmq.png",
-        "url": ""
-      },
-      {
-        "name": "Redis",
-        "color": "#58AD4F",
-        "image": "redis.png",
-        "url": ""
-      },
-      {
-        "name": "Docker",
-        "color": "#2496ED",
-        "image": "docker.png",
-        "url": ""
-      },
-      {
-        "name": "Git",
-        "color": "#F05030",
-        "image": "git.png",
-        "url": ""
-      },
-      {
-        "name": "GitHub",
-        "color": "#171515",
-        "image": "github.png",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "name": "Serkan",
-    "category": "Web Application",
-    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
-    "date": "2022",
-    "language": "PHP / JS",
-    "color": "#4F5B93",
-    "url": "https://github.com/orgs/SerkanFit/repositories",
-    "image": "serkan.png",
-    "technologies": [
-      {
-        "name": "GoLang",
-        "color": "#00ACD7",
-        "image": "golang.png",
-        "url": ""
-      },
-      {
-        "name": "NodeJS",
-        "color": "#75AD63",
-        "image": "nodejs.png",
-        "url": ""
-      },
-      {
-        "name": "MongoDB",
-        "color": "#58AD4F",
-        "image": "mongodb.png",
-        "url": ""
-      },
-      {
-        "name": "Docker",
-        "color": "#2496ED",
-        "image": "docker.png",
-        "url": ""
-      },
-      {
-        "name": "Git",
-        "color": "#F05030",
-        "image": "git.png",
-        "url": ""
-      },
-      {
-        "name": "GitHub",
-        "color": "#171515",
-        "image": "github.png",
-        "url": ""
-      },
-      {
-        "name": "Miro",
-        "color": "#609A21",
-        "image": "miro.png",
-        "url": ""
-      }
-    ]
-  },
-  {
     "name": "Odyssey",
     "category": "Game Core",
-    "description": "Infrastructure de jeux avec proxy pour Minecraft",
+    "description": "Infrastructure de jeux avec proxy pour Minecraft. Ce projet avait pour objectif de créer un véritable network ayant pour cible le jeu Minecraft via le port 25565. L'infrascture ainsi que la partie DataSource étaient développés en GoLang pour une meilleure compatibilité avec Kubernetes & Docker ainsi que pour de meilleures performances, La partie Core & Games qui correspondent aux parties présentes sur Minecraft étaient en Java, Minecraft étant développé en Java. J'ai donc utilisé l'API Bukkit ainsi que Spigot pour gérer les mondes, les joueurs ainsi que de manière générale les instances serveur. Le network proposait donc un système de Lobby d'attente ou les joueurs peuvent sélectionner un mode de jeu à rejoindre, puis ils étaient envoyés sur le serveur correspondant pour jouer la partie. Les données des joueurs étaient donc stockées dans des bases de données et les requêtes intra-serveur étaient effectuées en AMQ avec RabbitMQ ainsi qu'en HTTP avec du coté client OkHttpt (Kotlin).",
     "date": "2020-2022",
     "language": "Java",
     "color": "#E01E21",
     "url": "https://git.tolnkee.com/",
-    "image": "odyssey.svg",
+    "image": "odyssey.png",
     "technologies": [
       {
         "name": "Java",
@@ -368,9 +84,293 @@
     ]
   },
   {
+    "name": "Soda",
+    "category": "Game Core",
+    "description": "Infrastructure de jeux avec proxy pour Minecraft. L'objectif de ce network est de permettre des jeux sous forme d'évenements mais aussi sous forme de minis-jeux automatisés. Un système de Host est prévu pour permettre à des membres ayants les droits de créer des parties complétement personnalisables et d'inviter leurs amis ou d'ouvrir la partie au public. L'ensemble du serveur est développé en Java, la partie Proxy communique aux instances Bukkit à l'aide de RabbitMQ et du pub/sub de Redis, la base de données utilisée est MongoDB afin de stocker les données des joueurs et jeux sous formes de documents BSON.",
+    "date": "2022",
+    "language": "Java",
+    "color": "#E01E21",
+    "url": "https://github.com/Violetow9/sprite",
+    "image": "soda.png",
+    "technologies": [
+      {
+        "name": "Java",
+        "color": "#005E9C",
+        "image": "java.png",
+        "url": ""
+      },
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "image": "mongodb.png",
+        "url": ""
+      },
+      {
+        "name": "RabbitMQ",
+        "color": "#58AD4F",
+        "image": "rabbitmq.png",
+        "url": ""
+      },
+      {
+        "name": "Redis",
+        "color": "#58AD4F",
+        "image": "redis.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Val de Somme",
+    "category": "Web Application",
+    "description": "Site Internet de l'Amicale du Val de Somme réalisé en PHP natif sous serveur Apache. Le site propose aux visiteurs de consulter les dernières informations de l'association, de consulter des documents ou encore des résultats. Un espace membre est mis à disposition, certaines fonctionnalités ne sont disponibles que pour les membres. Mon module a été de gérer les news du site. Une partie admin permet d'ajouter, modifier ou supprimer certaines news à l'aide de l'outil CKEditor. Les news sont stockées dans la base de données (MySQL) sur site. Les news se trouvent en 2 catégories possibles, les news publiques qui sont disponibles pour tout le monde et les news privées qui ne sont disponibles que pour les membres connectés.",
+    "date": "2022",
+    "language": "PHP / JS",
+    "color": "#4F5B93",
+    "url": "https://github.com/ProjectCasVds/app",
+    "image": "valdesomme.png",
+    "technologies": [
+      {
+        "name": "PHP",
+        "color": "#005E9C",
+        "image": "php.png",
+        "url": ""
+      },
+      {
+        "name": "HTML5, CSS3, Javascript",
+        "color": "#005E9C",
+        "image": "htmlcssjs.png",
+        "url": ""
+      },
+      {
+        "name": "MySQL",
+        "color": "#58AD4F",
+        "image": "mysql.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "GSB",
+    "category": "Desktop Application",
+    "description": "Application Windows Forms réalisée en .NetFrameworkv4.7 et C# qui permet aux praticiens d'accéder à leurs visites, de planifier, modifier, consulter ou supprimer des rendez-vous. Un système de bilan de visite est mis en place pour mettre un meilleur suivis des visites avec notamment les échantillons proposés et les médicaments attitrés aux visiteurs. Un système de gestion de fiche est aussi mis en place pour d'accéder facilement et rapidement aux données des visiteurs. L'application propose donc de gérer les médicaments, les échantillons, les visites etc",
+    "date": "2 janvier 2023",
+    "language": "C#",
+    "color": "#370090",
+    "url": "assets/file/DOCUMENTATION_BREEDER.docx",
+    "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
+    "image": "gsb.png",
+    "technologies": [
+      {
+        "name": "C#",
+        "color": "#005E9C",
+        "image": "csharp.png",
+        "url": ""
+      },
+      {
+        "name": ".NET Framework",
+        "color": "#005E9C",
+        "image": "netframework.png",
+        "url": ""
+      },
+      {
+        "name": "MySQL",
+        "color": "#58AD4F",
+        "image": "mysql.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      },
+      {
+        "name": "Trello",
+        "color": "#171515",
+        "image": "trello.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Random Team Assembler",
+    "category": "Desktop Application",
+    "description": "Application de bureau réalisée en Flutter qui permet de générer aléatoirement des roles aux joueurs sur plusieurs maps pour les matchs d'entrainement sur Overwatch à l'aide d'un fichier de config en JSON.",
+    "date": "23 octobre 2022",
+    "language": "Dart",
+    "color": "#005E9C",
+    "url": "https://github.com/Violetow9/random_team_assembler_flutter",
+    "image": "randomteamassembler.png",
+    "technologies": [
+      {
+        "name": "Dart",
+        "color": "#005E9C",
+        "image": "dart.png",
+        "url": ""
+      },
+      {
+        "name": "Flutter",
+        "color": "#005E9C",
+        "image": "flutter.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Serkan",
+    "category": "Web Application",
+    "description": "Site Web vitrine réalisé dans le cursus du Bloc 1. Ce site permet de mettre en relation des vendeurs et des acheteurs mélangeant particuliers et professionelles dans le secteur de l'artisanat sous forme de plateforme numérique pure-leader.",
+    "date": "2022",
+    "language": "PHP / JS",
+    "color": "#4F5B93",
+    "url": "https://github.com/orgs/SerkanFit/repositories",
+    "image": "serkan.png",
+    "technologies": [
+      {
+        "name": "GoLang",
+        "color": "#00ACD7",
+        "image": "golang.png",
+        "url": ""
+      },
+      {
+        "name": "NodeJS",
+        "color": "#75AD63",
+        "image": "nodejs.png",
+        "url": ""
+      },
+      {
+        "name": "MongoDB",
+        "color": "#58AD4F",
+        "image": "mongodb.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      },
+      {
+        "name": "Miro",
+        "color": "#609A21",
+        "image": "miro.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Breeder",
+    "category": "Desktop Application",
+    "description": "Application de gestion d'un élevage en WindowsForm .NetCore3 lors de mon stage de 2ème année de BTS. Ma mission était principalement de m'occuper de la partie 'Back-End' de l'application en gérer la connexion à la base de données (MySQL) ainsi que les différentes opérations possibles (CRUD) et fournir une interface pour utilisateur (API). Ce projet a été réalisé en utilisant une méthode agile avec de courtes réunions tous les matins pour vérifier l'avancée du développement et fixer les objectifs de la journée.",
+    "date": "2 janvier 2023",
+    "language": "C#",
+    "color": "#370090",
+    "url": "https://github.com/Violetow9/Breeder",
+    "documentation": "assets/file/DOCUMENTATION_BREEDER.docx",
+    "image": "breeder.png",
+    "technologies": [
+      {
+        "name": "C#",
+        "color": "#005E9C",
+        "image": "csharp.png",
+        "url": ""
+      },
+      {
+        "name": ".NET Core",
+        "color": "#005E9C",
+        "image": "netcore.png",
+        "url": ""
+      },
+      {
+        "name": "MySQL",
+        "color": "#58AD4F",
+        "image": "mysql.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "Bien être and go",
     "category": "Web Application",
-    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS",
+    "description": "Site web réalisé avec l'outil WordPress lors de mon stage de 1ère année de BTS. Ce site consitue un site vitrine pour l'association 'BienEtreAndGo' (https://bienetreandgo.fr/). Le but du site est de permettre aux utilisateurs de consulter les prestations proposées, s'inscrire à des programmes ou encore sélectionner des programmes personnalisés. Le site possède un nom de domaine contenu dans l'offre choisie sur Wordpress (https://wordpress.com/fr/). Mes missions pour ce projet ont été d'analyser les différents CMS, comparer les offres pour choisir la plus adaptée à l'organisme de mon stage. Ensuite j'ai participé au 'developpement' du site en apprenant à utiliser le CMS WordPress, gérer les cookies, mentions légales et tout ce qui touche au référencement des sites avec notamment le référencement naturel ainsi qu'être présent sur Google, Twitter & Instagram.",
     "date": "2022",
     "language": "WordPress",
     "color": "#016FA0",
@@ -388,7 +388,7 @@
   {
     "name": "VLG",
     "category": "Web App",
-    "description": "Application Web de jeux pour le Loup-Garou Thiercelieux",
+    "description": "Application Web de jeux pour le Loup-Garou Thiercelieux. Le but de l'application est de permettre à un hôte/narrateur de créer une partie, de la configurer, modifier les roles et autres paramètres pour ensuite fournir un code unique aux joueurs qui leur permettera de rejoindre la partie. Chaque joueur entre alors son nom et une fois que tout le monde a rejoint, l'hôte peut démarrer la partie. La partie démarre alors, le rôle des joueurs s'ârrete ici, cependant le narrateur va voir sur son écran s'afficher un ensemble de messages correspondants à l'état de la partie, il pourra alors controler la partie sans forcément connaître le jeu, la logique du jeu étant l'application.",
     "date": "2023",
     "language": "Java",
     "color": "#E01E21",

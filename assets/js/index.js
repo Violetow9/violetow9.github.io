@@ -316,7 +316,7 @@ function loadProjects2(projects) {
         const documentationBtn = document.createElement('button');
         documentationBtn.type = 'button';
         documentationBtn.classList.add('btn', 'btn-primary', 'btn-block', 'mt-2');
-        documentationBtn.textContent = 'Code source';
+        documentationBtn.textContent = 'En savoir plus';
         documentationBtn.addEventListener("click", ev => {
             window.open(project.url);
         });
@@ -383,11 +383,39 @@ function loadVeille(articles) {
         cardTitle.appendChild(cardLink);
         cardBody.appendChild(cardTitle);
 
+        /*
+
         let cardDescription = document.createElement("p");
         cardDescription.className = "card-description";
         cardDescription.innerText = article.description;
 
+
         cardBody.appendChild(cardDescription);
+    */
+
+        // Ajout d'une section Résumé
+        let cardSummary = document.createElement("div");
+        cardSummary.className = "card-summary";
+        cardSummary.innerHTML = `<h4>Résumé</h4><p>${article.summary}</p>`;
+
+        cardBody.appendChild(cardSummary);
+
+        // Ajout d'une section Avantages
+        let cardAdvantages = document.createElement("div");
+        cardAdvantages.className = "card-advantages";
+        cardAdvantages.innerHTML = `<h4>Avantages</h4><ul>${article.advantages.map(advantage => `<li>${advantage}</li>`).join('')}</ul>`;
+
+        cardBody.appendChild(cardAdvantages);
+
+        // Ajout d'une section Inconvénients
+        let cardDisadvantages = document.createElement("div");
+        cardDisadvantages.className = "card-disadvantages";
+        cardDisadvantages.innerHTML = `<h4>Inconvénients</h4><ul>${article.disadvantages.map(disadvantage => `<li>${disadvantage}</li>`).join('')}</ul>`;
+
+        cardBody.appendChild(cardDisadvantages);
+
+
+
         card.appendChild(cardBody);
 
         let cardFooter = document.createElement("div");
@@ -427,30 +455,64 @@ function afficherMentionsLegales() {
     // Créer un élément div pour la popup
     var popup = document.createElement('div');
 
+    var popupTitle = document.createElement('h1');
+    var titleText = document.createTextNode('Mentions Légales');
+    popupTitle.appendChild(titleText);
+    popup.appendChild(popupTitle);
+
     // Ajouter du texte à la popup
     var texte = document.createElement('div');
 
     // Ajouter une partie de texte avec un intitulé
     var partie1 = document.createElement('div');
     var titre1 = document.createElement('h2');
-    var texte1 = document.createTextNode('Intitulé de la première partie');
-    var contenu1 = document.createTextNode('Contenu de la première partie');
+    var texte1 = document.createTextNode('Propriétaire et éditeur du site:');
+    var contenu1 = document.createTextNode('Hugo Ilarraz - hugoilarraz06@gmail.com ');
+    var contenu2 = document.createTextNode('URL: violetow9.github.io');
+
     titre1.appendChild(texte1);
     partie1.appendChild(titre1);
     partie1.appendChild(contenu1);
+    partie1.appendChild(contenu2);
 
     // Ajouter une partie de texte avec un intitulé
     var partie2 = document.createElement('div');
     var titre2 = document.createElement('h2');
-    var texte2 = document.createTextNode('Intitulé de la deuxième partie');
-    var contenu2 = document.createTextNode('Contenu de la deuxième partie');
+    var texte2 = document.createTextNode('Hébergement:');
+    var contenu2 = document.createTextNode('GitHub Pages (https://pages.github.com/)');
     titre2.appendChild(texte2);
     partie2.appendChild(titre2);
     partie2.appendChild(contenu2);
 
+    var partie3 = document.createElement('div');
+    var titre3 = document.createElement('h2');
+    var texte3 = document.createTextNode('Propriété intellectuelle:');
+    var imageBackground = document.createTextNode('Image "programmingbackground.jpg" appartient à : ');
+    var contenu3 = document.createElement('a');
+    contenu3.href = 'http://www.freepik.com';
+    contenu3.innerText = "Designed by fullvector / Freepik";
+
+    titre3.appendChild(texte3);
+    partie3.appendChild(titre3);
+    partie3.appendChild(imageBackground);
+    partie3.appendChild(contenu3);
+
+
+    var partie4 = document.createElement('div');
+    var titre4 = document.createElement('h2');
+    var texte4 = document.createTextNode('Formulaire de contact:');
+    var contenu4 = document.createTextNode('Les informations recueillies sur ce formulaire sont enregistrées dans une base de données afin de pouvoir traiter votre demande. Les données sont conservées pendant une durée de 1 an et sont destinées à l\'administrateur du site. Conformément à la loi "informatique et libertés", vous pouvez exercer votre droit d\'accès aux données vous concernant et les faire rectifier en contactant l\'administrateur du site.');
+
+    titre4.appendChild(texte4);
+    partie4.appendChild(titre4);
+    partie4.appendChild(contenu4);
+
     // Ajouter les parties de texte à l'élément texte
     texte.appendChild(partie1);
     texte.appendChild(partie2);
+    texte.appendChild(partie3);
+    texte.appendChild(partie4);
+
 
     // Appliquer des classes Bootstrap CSS à l'élément texte et à ses enfants
     texte.classList.add('container', 'my-5');
