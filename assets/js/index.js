@@ -18,7 +18,7 @@ window.onload = () => {
         })
         .catch(reason => console.log(reason))
 
-    fetch("http://violetow9.me/githubdata.php")
+    fetch("https://violetow9.me/githubdata.php")
         .then(response => response.json())
         .then(json => {
             console.log(json)
@@ -68,7 +68,7 @@ window.onload = () => {
 
         axios({
             method: "post",
-            url: "http://violetow9.me/contact.php",
+            url: "https://violetow9.me/contact.php",
             data: data,
             headers: {"Content-Type": "multipart/form-data"},
         }).then(function (response) {
