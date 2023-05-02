@@ -4,7 +4,7 @@ window.onload = () => {
     fetch("/projects.json")
         .then(response => response.json())
         .then(json => {
-            console.log(json)
+            //console.log(json)
             loadProjects2(json)
         })
         .catch(reason => console.log(reason))
@@ -13,7 +13,7 @@ window.onload = () => {
     fetch("/veille.json")
         .then(response => response.json())
         .then(json => {
-            console.log(json)
+            //console.log(json)
             loadVeille(json)
         })
         .catch(reason => console.log(reason))
@@ -21,7 +21,7 @@ window.onload = () => {
     fetch("https://violetow9.me/githubdata.php")
         .then(response => response.json())
         .then(json => {
-            console.log(json)
+            //console.log(json)
 
             const reposCount = document.getElementById("repos-count");
             reposCount.setAttribute("data-purecounter-end", json.repos_count);
@@ -73,7 +73,7 @@ window.onload = () => {
             headers: {"Content-Type": "multipart/form-data"},
         }).then(function (response) {
             //handle success
-            console.log(response);
+            //console.log(response);
 
             errorMessage.style.display = "none";
             successMessage.style.display = "block";
@@ -378,6 +378,7 @@ function loadVeille(articles) {
         cardTitle.className = "card-title";
         let cardLink = document.createElement("a");
         cardLink.href = article.url;
+        cardLink.target = "_blank";
         cardLink.innerText = article.name;
 
         cardTitle.appendChild(cardLink);
@@ -413,6 +414,13 @@ function loadVeille(articles) {
         cardDisadvantages.innerHTML = `<h4>Inconvénients</h4><ul>${article.disadvantages.map(disadvantage => `<li>${disadvantage}</li>`).join('')}</ul>`;
 
         cardBody.appendChild(cardDisadvantages);
+
+        // Ajout d'une section Pertinence
+        let cardPertinence = document.createElement("div");
+        cardPertinence.className = "card-pertinence";
+        cardPertinence.innerHTML = `<h4>Pertinence</h4><p>${article.pertinence}</p>`;
+
+        cardBody.appendChild(cardPertinence);
 
 
 

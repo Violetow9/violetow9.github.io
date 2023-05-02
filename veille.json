@@ -1,65 +1,107 @@
 [
   {
-    "name": "SOLID Principles With (almost) Real-Life Examples in Java",
-    "date": "5 janvier 2022",
-    "url": "https://betterprogramming.pub/solid-principles-with-almost-real-life-examples-in-java-b292a4e2c18b",
-    "img": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*cRdO9c0N4P0QSg9LnJPTeg.jpeg",
+    "name": "Design Pattern in Java — Builder Pattern",
+    "date": "13 Mars 2022",
+    "url": "https://techandmath.medium.com/design-pattern-in-java-builder-pattern-282325d0cd41",
+    "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*N3ZRHLmVYnby9bx2_AwBkg.png",
     "category": "JAVA",
     "description": "SOLID principles are some of the oldest rules in the software world. They enable us to write maintainable, readable, reusable code. In this text, I am trying to accomplish a somewhat real-life example, obeying the SOLID principles.",
-    "author": "Berke Soysal",
-    "read_time": 3,
-    "summary": "L'article présente les principes SOLID de la programmation orientée objet à travers des exemples concrets en Java. Les principes SOLID visent à améliorer la qualité du code en le rendant plus facile à comprendre, à maintenir et à étendre.",
-    "advantages": [
-      "Améliorent la qualité du code en le rendant plus facile à comprendre, à maintenir et à étendre.",
-      "Réduisent la complexité du code en le divisant en classes simples et bien définies.",
-      "Facilitent la réutilisation du code et la création de nouvelles fonctionnalités."
-    ],
-    "disadvantages": [
-      "Peuvent rendre le code plus verbeux et complexe à comprendre si appliqués de manière excessive.",
-      "Peuvent nécessiter une plus grande planification et une plus grande connaissance des principes de conception pour être correctement appliqués.",
-      "Peuvent parfois entraîner une augmentation de la quantité de code nécessaire pour implémenter une fonctionnalité."
-    ]
-  },
-  {
-    "name": "Dependency Inversion Principle: How Google Developers write code",
-    "date": "10 avril 2022",
-    "url": "https://paigeshin1991.medium.com/dependency-inversion-principle-how-google-developers-write-code-f6cbd3b530a6",
-    "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*0QZCG375uYmgHsyK9aJMFg.png",
-    "category": "JAVA",
-    "description": "Using CompletableFuture to implement an asynchronous use case",
-    "author": "Suraj Mishra",
-    "read_time": 2,
-    "summary": "Le principe d'inversion de dépendance (DIP) est une pratique de développement logiciel qui consiste à créer des modules hautement réutilisables en les rendant indépendants des détails de mise en œuvre de leurs dépendances. Cela permet de faciliter la maintenance, les tests et les modifications du code.",
-    "advantages": [
-      "Réduction de la complexité du code et augmentation de sa flexibilité.",
-      "Amélioration de la qualité du code et facilité de sa maintenance.",
-      "Possibilité de réutiliser des modules dans d'autres projets."
-    ],
-    "disadvantages": [
-      "Complexité accrue de la mise en place de l'architecture du code.",
-      "Nécessité de créer des interfaces pour les modules, ce qui peut prendre du temps supplémentaire.",
-      "Risque d'une certaine surabstraction, qui peut compliquer la compréhension du code."
-    ]
-  },
-  {
-    "name": "How to Scale Application to support Millions User",
-    "date": "17 avril 2022",
-    "url": "https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670",
-    "img": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*y0wWDCkOUAJkOuetskGuEw.png",
-    "category": "WEB PERFORMANCES",
-    "description": "Designing a system that supports millions of user is a process that requires continuous improvement and refinement. In this article, we will discuss about high level system architecture for single user first and then scale our system to millions of user.",
-    "author": "Sahil Patel",
+    "author": "Tech & Math",
     "read_time": 4,
-    "summary": "L'article parle de la façon de mettre à l'échelle une application pour prendre en charge des millions d'utilisateurs, en se concentrant sur les aspects tels que la conception de l'architecture, la gestion de la base de données, la mise en cache, la distribution de contenu et l'utilisation de technologies de cloud computing.",
+    "summary": "Le Builder Pattern est un design pattern de création qui permet de créer des objets complexes en utilisant des objets plus simples. Il divise le processus de construction en étapes et utilise des méthodes de construction pour construire l'objet final.",
     "advantages": [
-      "Permet de gérer une grande quantité de trafic et d'utilisateurs",
-      "Offre une grande flexibilité en termes de capacité de traitement et de stockage",
-      "Permet de réduire les coûts d'infrastructure et de maintenance"
+      "Permet de créer des objets complexes en utilisant des objets plus simples.",
+      "Le code est facile à lire et à comprendre car chaque étape est clairement définie.",
+      "Permet de créer des objets immuables."
     ],
     "disadvantages": [
-      "La mise en place d'une architecture évolutive peut être complexe et nécessiter des compétences spécifiques",
-      "La dépendance à des fournisseurs de services de cloud peut créer des risques de verrouillage et de sécurité",
-      "L'utilisation de cette technologie peut augmenter les coûts à long terme si elle n'est pas gérée correctement."
-    ]
+      "Peut augmenter le nombre de classes et de méthodes.",
+      "Le code peut devenir complexe si les objets sont très complexes."
+    ],
+    "pertinence": "Ce pattern est pertinent car il permet de simplifier la construction d'objets complexes en séparant la création de l'objet de sa représentation. Il est particulièrement utile dans les applications qui utilisent des objets avec de nombreuses propriétés ou qui nécessitent des configurations complexes."
+  },
+  {
+    "name": "Visitor Design Pattern",
+    "date": "25 Octobre 2019",
+    "url": "https://medium.com/@amritlalsahu5/visitor-design-pattern-364c712f46ca",
+    "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*apxJPltXz9RpCj74ACZDJg.jpeg",
+    "category": "JAVA",
+    "description": "SOLID principles are some of the oldest rules in the software world. They enable us to write maintainable, readable, reusable code. In this text, I am trying to accomplish a somewhat real-life example, obeying the SOLID principles.",
+    "author": "Amrit Lal Sahu",
+    "read_time": 2,
+    "summary": "Le pattern Visitor est un design pattern comportemental qui permet de séparer l'algorithme d'une structure de données de la structure elle-même. Il est souvent utilisé pour ajouter des fonctionnalités à une structure existante sans la modifier.",
+    "advantages": [
+      "Permet d'ajouter de nouvelles fonctionnalités à une structure existante sans la modifier.",
+      "Facilite la maintenance en regroupant le code qui effectue des opérations sur la structure.",
+      "Peut améliorer la performance en évitant les conversions de types."
+    ],
+    "disadvantages": [
+      "Peut rendre le code plus complexe.",
+      "Peut également être difficile à comprendre et à mettre en œuvre."
+    ],
+    "pertinence": "Le pattern Visitor peut être utile pour la manipulation de structures de données complexes, telles que des arbres ou des graphes. Il peut également aider à séparer les préoccupations liées à la structure de données et aux algorithmes qui y sont appliqués, ce qui peut améliorer la maintenabilité et la réutilisabilité du code."
+  },
+  {
+    "name": "Understanding Factory Method Design Pattern",
+    "date": "23 Mai 2021",
+    "url": "https://medium.com/nerd-for-tech/understanding-factory-method-design-pattern-4d7ba8f0dfc4",
+    "img": "https://miro.medium.com/v2/resize:fit:720/0*1Q0zPMeKIO_YXxoC",
+    "category": "JAVA",
+    "description": "SOLID principles are some of the oldest rules in the software world. They enable us to write maintainable, readable, reusable code. In this text, I am trying to accomplish a somewhat real-life example, obeying the SOLID principles.",
+    "author": "Nisal Pubudu",
+    "read_time": 4,
+    "summary": "Le Factory Method Design Pattern est un design pattern de création qui permet de créer des objets sans spécifier explicitement la classe à instancier. Il utilise une méthode de fabrique pour créer des objets en fonction des paramètres d'entrée.",
+    "advantages": [
+      "Permet de créer des objets sans spécifier explicitement la classe à instancier.",
+      "Facilite l'ajout de nouvelles classes pour créer de nouveaux objets.",
+      "Permet de cacher la logique de création dans une seule classe."
+    ],
+    "disadvantages": [
+      "Peut augmenter la complexité du code si utilisé de manière inappropriée.",
+      "Peut limiter les possibilités de personnalisation des objets créés."
+    ],
+    "pertinence": "Ce pattern est pertinent car il permet de créer des objets sans avoir à spécifier la classe exacte de l'objet qui doit être créé. Il est utile dans les applications qui ont besoin de créer des objets de différentes sous-classes, mais qui ne veulent pas avoir à se soucier de la classe exacte qui doit être créée."
+  },
+  {
+    "name": "Understanding Singleton Design Pattern",
+    "date": "22 Mai 2021",
+    "url": "https://medium.com/geekculture/introduction-to-design-patterns-understanding-singleton-design-pattern-5a4d49960444",
+    "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*JBWGRFnlxaUzdX2b7DC7sw.png",
+    "category": "JAVA",
+    "description": "SOLID principles are some of the oldest rules in the software world. They enable us to write maintainable, readable, reusable code. In this text, I am trying to accomplish a somewhat real-life example, obeying the SOLID principles.",
+    "author": "Nisal Pubudu",
+    "read_time": 6,
+    "summary": "Le pattern Singleton est un design pattern de création qui garantit qu'une seule instance d'une classe est créée. Il est souvent utilisé dans des situations où une ressource doit être partagée de manière centralisée.",
+    "advantages": [
+      "Permet d'assurer qu'une seule instance de la classe est créée.",
+      "Facilite le contrôle d'accès aux ressources partagées.",
+      "Peut améliorer les performances en évitant la création d'instances multiples."
+    ],
+    "disadvantages": [
+      "Peut rendre le code difficile à tester et à maintenir.",
+      "Peut également rendre le code moins flexible et extensible."
+    ],
+    "pertinence": " Le pattern Singleton est largement utilisé en développement d'applications, et peut être particulièrement utile pour la gestion de ressources partagées telles que des connexions de base de données ou des objets de cache."
+  },
+  {
+    "name": "Strategy Design Pattern Java",
+    "date": "16 Février 2021",
+    "url": "https://vibskant.medium.com/strategy-design-pattern-java-6ee2f7f4c297",
+    "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*XJehOvC2CwACT33MXBQyaQ.png",
+    "category": "JAVA",
+    "description": "SOLID principles are some of the oldest rules in the software world. They enable us to write maintainable, readable, reusable code. In this text, I am trying to accomplish a somewhat real-life example, obeying the SOLID principles.",
+    "author": "Vibhor Pareek",
+    "read_time": 4,
+    "summary": "Le Strategy Design Pattern est un design pattern comportemental qui permet de changer dynamiquement le comportement d'un objet en fonction d'une situation donnée. Il consiste à encapsuler un comportement dans une interface et à le rendre interchangeable.",
+    "advantages": [
+      "Permet de changer dynamiquement le comportement d'un objet.",
+      "Facilite la mise en place de différents algorithmes dans une application.",
+      "Permet de séparer les algorithmes de l'objet principal, ce qui facilite la maintenance et la modification du code."
+    ],
+    "disadvantages": [
+      "Peut augmenter la complexité du code si utilisé de manière inappropriée.",
+      "Nécessite une bonne conception préalable pour être utilisé de manière efficace."
+    ],
+    "pertinence": "Ce pattern est pertinent car il permet de changer dynamiquement le comportement d'un objet en fonction de son état ou de l'environnement dans lequel il se trouve. Il est utile dans les applications qui doivent prendre en compte de nombreux scénarios différents."
   }
 ]

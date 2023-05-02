@@ -80,6 +80,12 @@
         "color": "#609A21",
         "image": "miro.png",
         "url": ""
+      },
+      {
+        "name": "Miro",
+        "color": "#609A21",
+        "image": "notion.png",
+        "url": ""
       }
     ]
   },
@@ -293,6 +299,54 @@
         "url": ""
       },
       {
+        "name": "MySQL",
+        "color": "#58AD4F",
+        "image": "mysql.png",
+        "url": ""
+      },
+      {
+        "name": "Docker",
+        "color": "#2496ED",
+        "image": "docker.png",
+        "url": ""
+      },
+      {
+        "name": "Git",
+        "color": "#F05030",
+        "image": "git.png",
+        "url": ""
+      },
+      {
+        "name": "GitHub",
+        "color": "#171515",
+        "image": "github.png",
+        "url": ""
+      },
+      {
+        "name": "Trello",
+        "color": "#171515",
+        "image": "trello.png",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "CasF1",
+    "category": "Web Application",
+    "description": "Site Web réalisé dans le cursus du PPE de 1ère année. Ce site met à disposition des informations concernant le Grand Prix de Formule1. Une partie admin permet l'ajout, la modification et la suppression des informations des GP, pilotes etc.",
+    "date": "2021",
+    "language": "PHP / JS",
+    "color": "#4F5B93",
+    "url": "https://github.com/ProjectF1PPE",
+    "image": "casf1.ico",
+    "technologies": [
+      {
+        "name": "NodeJS",
+        "color": "#75AD63",
+        "image": "nodejs.png",
+        "url": ""
+      },
+      {
         "name": "MongoDB",
         "color": "#58AD4F",
         "image": "mongodb.png",
@@ -317,9 +371,9 @@
         "url": ""
       },
       {
-        "name": "Miro",
-        "color": "#609A21",
-        "image": "miro.png",
+        "name": "Trello",
+        "color": "#171515",
+        "image": "trello.png",
         "url": ""
       }
     ]
